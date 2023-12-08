@@ -1,5 +1,7 @@
 DIR=$(CURDIR)
 
+start: install up
+
 build:
 	docker compose -p go build
 
